@@ -60,8 +60,6 @@
 				<plugin>
 					<artifactId>maven-war-plugin</artifactId>
 					<version>3.2.2</version>
-					<configuration><warName>tested</warName>
-					</configuration>
 				</plugin>
 				<plugin>
 					<artifactId>maven-install-plugin</artifactId>
@@ -93,7 +91,7 @@
             </executions>
         </plugin>
 			</plugins>
-		<finalName>tested</finalName>
+<!-- 		<finalName>donedonadone</finalName> -->
 		
 	</build>
 </project>
